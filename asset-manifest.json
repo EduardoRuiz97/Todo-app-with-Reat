@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Todo-app-with-Reat/static/css/main.e7ddfe67.css",
+    "main.js": "/Todo-app-with-Reat/static/js/main.7d3d33a0.js",
+    "static/media/bg-desktop-light.jpg": "/Todo-app-with-Reat/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "static/media/bg-desktop-dark.jpg": "/Todo-app-with-Reat/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/Todo-app-with-Reat/index.html",
+    "static/media/icon-sun.svg": "/Todo-app-with-Reat/static/media/icon-sun.910b1f9a23741afc341e.svg",
+    "static/media/icon-moon.svg": "/Todo-app-with-Reat/static/media/icon-moon.6c03114b495d05f4380b3c544d9afe2a.svg",
+    "static/media/icon-cross.svg": "/Todo-app-with-Reat/static/media/icon-cross.6ee81d30b75cab19d6f7314624fcc4d6.svg",
+    "static/media/icon-check.svg": "/Todo-app-with-Reat/static/media/icon-check.a8fb15d0278c8e312df5.svg",
+    "main.e7ddfe67.css.map": "/Todo-app-with-Reat/static/css/main.e7ddfe67.css.map",
+    "main.7d3d33a0.js.map": "/Todo-app-with-Reat/static/js/main.7d3d33a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7ddfe67.css",
+    "static/js/main.7d3d33a0.js"
+  ]
+}
