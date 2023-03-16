@@ -1,0 +1,40 @@
+.form {
+  width: 100%;
+  padding: 0.5em 1em;
+  background-color: var(--VeryLightGray);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0.85em;
+}
+
+.form__radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--LightGrayishBlue);
+  border-radius: 50%;
+}
+
+.form__text {
+  width: 70%;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.form-dark {
+  background-color: var(--VeryDarkDesaturatedBlue);
+}
+
+.form-dark .form__radio {
+  border: 1px solid var(--DarkGrayishBlue)
+}
+
+.form-dark .form__text {
+  color: var(--LightGrayishBlue);
+}

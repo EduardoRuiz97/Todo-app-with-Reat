@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*-----------------variables ----------------*/
+/*Light Theme*/
+
+:root {
+/*Light Theme*/
+--VeryLightGray: hsl(0, 0%, 98%);
+--VeryLightGrayishBlue: hsl(236, 33%, 92%);
+--LightGrayishBlue: hsl(233, 11%, 84%);
+--DarkGrayishBlue: hsl(236, 9%, 61%);
+--VeryDarkGrayishBlue: hsl(235, 19%, 35%);
+
+/**Dark theme*/
+
+--VeryDarkBlue: hsl(235, 21%, 11%);
+--VeryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+--LightGrayishBlue: hsl(234, 39%, 85%);
+--LightGrayishBlue__hover: hsl(236, 33%, 92%);
+--DarkGrayishBlue: hsl(234, 11%, 52%);
+--VeryDarkGrayishBlue-a: hsl(233, 14%, 35%);
+--VeryDarkGrayishBlue-b: hsl(237, 14%, 26%);
+
+}
+
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+  position: relative;
+  min-height: 100vh;
+}
+

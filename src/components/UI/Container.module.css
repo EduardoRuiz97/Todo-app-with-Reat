@@ -1,0 +1,29 @@
+.container {
+  width: 85%;
+  min-height: 500px;
+  position: absolute;
+  left: 7.5%;
+  top: 50px;
+}
+
+
+@media screen and (min-width: 777px ) {
+  .container {
+    width: 60%;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px ) {
+  .container {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px ) {
+  .container {
+    width: 40%;
+    left: 30%;
+  }
+}

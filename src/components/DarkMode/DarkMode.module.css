@@ -1,0 +1,41 @@
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.title h1 {
+  color: var(--VeryLightGray);
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+
+.dark button img {
+  content: url('../../images/icon-sun.svg');
+}
+
+.img-animation {
+  animation: mode-animation .3s;
+}
+
+
+@keyframes mode-animation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+

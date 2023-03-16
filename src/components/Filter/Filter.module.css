@@ -1,0 +1,38 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: var(--VeryLightGray);
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  padding: 0.8em;
+}
+
+.filter span {
+  font-size: 0.85em;
+  color: var(--DarkGrayishBlue);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter span:hover {
+  color: hsl(220, 98%, 61%);
+}
+
+.filter-dark {
+ background-color: var(--VeryDarkDesaturatedBlue);
+}
+
+.filter-dark span {
+  color: var(--DarkGrayishBlue);
+}
+
+.filter-dark span:hover {
+  color: var(--LightGrayishBlue__hover);
+}
+
+.filter-dark span:active {
+  color: hsl(220, 98%, 61%);
+}

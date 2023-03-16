@@ -1,0 +1,10 @@
+.main {
+  background-color: var(--VeryLightGray);
+  width: 100%;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.main-dark {
+  background-color: var(--VeryDarkBlue);
+}

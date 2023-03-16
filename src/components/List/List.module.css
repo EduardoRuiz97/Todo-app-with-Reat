@@ -1,0 +1,36 @@
+.list-container {
+  background-color: var(--VeryLightGray);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1em;
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.1), -5px 0px 15px rgba(0,0,0,0.1);
+}
+
+.list-container__actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7em;
+  color: hsl(236, 9%, 61%);
+  font-weight: 400;
+  padding: 1em;
+}
+
+.list-container__actions span {
+  cursor: pointer;
+}
+
+.list-container__actions span:hover {
+  font-weight: 700;
+  color: hsl(235, 19%, 35%);
+}
+
+.container-dark, .container-dark .list-container__actions {
+  background-color: var(--VeryDarkDesaturatedBlue);
+}
+
+.container-dark, .container-dark .list-container__actions span {
+  color: hsl(234, 11%, 52%);
+}
+

@@ -1,0 +1,60 @@
+.item {
+  padding: 0.5em 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--VeryLightGrayishBlue);
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  color: hsl(235, 19%, 35%);
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.radio__input {
+  display: none
+}
+
+.custom-radio {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  border: 1px solid var(--LightGrayishBlue);
+}
+
+.custom-radio::after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: url('../../../images/icon-check.svg');
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%)) ;
+  border-radius: 50%;
+  text-align: center; 
+  font-size: 1.2rem;
+  transform: scale(0);
+}
+
+.radio__input:checked + .custom-radio::after {
+  transform: scale(1);
+}
+
+.item img {
+  cursor: pointer;
+}
+
+.item-dark {
+  border-bottom: 1px solid hsl(237, 14%, 26%);
+}
+
+.item-dark .radio {
+  color: var(--LightGrayishBlue);
+}
+
